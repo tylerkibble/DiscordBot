@@ -6,15 +6,8 @@ client.on("ready", () => {
 });
  
 client.on("message", (message) => {
-  if (message.content.startsWith("ip")) {
-    message.channel.send("Hey there! The Factions Server IP is IP:SnowsFactions.mcpro.io");
-  }
-});
-});
- 
-client.on("message", (message) => {
   if (message.content.startsWith("ping")) {
-    message.channel.send("Pong!");
+    message.channel.send("pong!");
   }
 });
  
